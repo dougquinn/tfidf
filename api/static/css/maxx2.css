@@ -1,0 +1,164 @@
+#logo {
+	width: 22%;
+	margin-top: 40px;
+	margin-left:100px;
+}
+
+#intro {
+	padding-top: 30px;
+	line-height: 180%;
+}
+
+#hello {
+ 	font-family: Helvetica;
+ 	font-weight: bold;
+ 	font-size: 28pt;
+ 	color: #3D3D3D;
+}
+
+#designer {
+	font-family: Helvetica;
+ 	font-weight: 100;
+ 	font-size: 28pt;
+ 	color: #3D3D3D;
+}
+
+#nameSpan {
+	color: #BB1F25;
+}
+
+.carousel-control { 
+	background-image: none !important;
+	outline: none; 
+}
+
+.heroimage {
+	width: 100%;
+	max-width: 100%;
+	margin-top: 30px;
+}
+
+#portfolio {
+	font-family: Helvetica;
+ 	font-weight: bold;
+ 	font-size: 28pt;
+ 	color: #3D3D3D;
+ 	text-align: center;
+ 	margin-bottom: 20px
+}
+
+#photos {
+	max-width: 80%;
+	margin: auto;
+}
+
+.webdescription {
+	border-style: solid;
+	border-width: 3px 0px 6px 0px;
+	border-color: #0D4B6E;
+	line-height: 140%;
+}
+
+.description {
+	font-family: Helvetica;
+ 	font-weight: 100;
+ 	font-size: 24pt;
+ 	color: #3D3D3D;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.com {
+	font-family: Baskerville;
+ 	font-style: italic;
+ 	font-size: 24pt;
+ 	color: #BB1F25;
+	text-align: center;
+	padding-bottom: 2px;
+}
+
+.companyphoto {
+	width: 100%;
+	padding-top: 30px;
+}
+
+#greybox {
+	width: 100%;
+	background-color: #3D3D3D;
+	height: 150px;
+	margin-top: 50px;
+}
+
+#copyright {
+	font-family: Helvetica;
+ 	font-weight: 100;
+ 	font-size: 18pt;
+	color: white;
+	text-align: center;
+	padding-top: 55px;
+}
+
+@media (max-width: 768px) {
+	#intro {
+        line-height: 100%;
+        padding-top: 5px;
+	}
+	
+	#hello {
+		font-size: 16pt;
+		text-align: center;
+	}
+
+	#designer {
+		font-size: 16pt;
+		text-align: center;
+	}
+	
+	#logoDiv {
+        text-align:center;
+    }
+	
+	#logo {
+	    padding-top: 10px;
+        display: inline-block;
+        margin: auto;
+        width: 50%;
+	}
+	
+	.heroimage {
+        margin-top: 10px;
+    }
+	
+	.companyphoto {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #portfolio {
+        font-size: 14pt;
+    }
+    
+    .webdescription {
+        border-width: 2px 0px 4px 0px;
+        line-height: 100%;
+    }
+    
+    .webdescription p {
+        font-size: 14pt;
+    }
+    
+    .description {
+    	padding-top: 10px;
+    }
+    
+    #greybox {
+        height: 50px;
+        margin-top: 15px;
+    }
+    
+    #copyright {
+     	font-size: 8pt;
+     	padding-top: 20px;
+    }
+}

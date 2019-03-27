@@ -1,0 +1,116 @@
+#main {
+    padding-top: 100px;
+    margin: auto;
+}
+
+#name {
+	font: 100px/1.5 Helvetica, sans-serif;
+	color: #c9ae63;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.6), 2px 2px 0px rgba(0,0,0,0.5), 3px 3px 0px rgba(0,0,0,0.4), 4px 4px 0px rgba(0,0,0,0.3), 5px 5px 0px rgba(0,0,0,0.2), 6px 6px 0px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+div.tfidf-main {
+    width: 80%;
+    margin: auto;
+}
+
+span.keyword-span {
+    font-weight: bold;
+}
+
+p.error {
+    font-size: 14px;
+    color: red;
+}
+
+p.keyword-p {
+    font-size: 24px;
+    text-align: center;
+}
+
+tr.tfidf-tr td {
+    padding: 5px 10px 5px 10px;
+    border-right: 1px solid grey;
+}
+
+tr.tfidf-tr:nth-child(even) {
+  background: #e0e0e0;
+}
+
+tr.tfidf-tr td:nth-child(n+2) {
+  text-align: center;
+}
+
+table.tfidf-table {
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+table thead.tfidf-thead {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+table thead.tfidf-thead td {
+    width: 20%;
+}
+
+.form-control {
+    display: block;
+    margin: auto;
+}
+
+.loginButtons {
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+.btn {
+    background-color: #c9ae63;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form {
+	display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.login-btn {
+    margin-top: 25px;
+}
+
+.error {
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+    #name {
+        font: 40px/1.5 Helvetica, sans-serif;
+    }
+    
+    .form {
+        width: 100%;
+    }
+    
+    .form-width {
+        width: 100%;
+    }
+    
+    .form_control {
+        height: 30px;
+    }
+    
+    .error {
+        font-size: 14px;
+    }
+}

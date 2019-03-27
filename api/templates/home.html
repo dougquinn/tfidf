@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TF-IDF</title>
+		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pacifico" type="text/css"> -->
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+		<!-- <link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css"> -->
+
+		<link rel="stylesheet" href="{{ url_for('static', filename='js/modernizr-2.6.2.min.js') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-glyphicons.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+		<!-- <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script> -->
+	</head>
+	<body>
+		<div id ="main">
+			<div class="col-sm-12">
+				<h1 id="name">TF-IDF</h1><br /><br />
+				<div class="form">
+					<form method="POST" action="http://localhost:5000/keyword">
+	                    <div>
+	                        <p>Enter a keyword to search clinical trials for.</p>
+	                        <input type="text" class="form-control" name="keyword" />
+						</div>
+						<div class="loginButtons">
+                            <input type="submit" class="btn login-btn" value="Search" name="login" />
+    					</div>
+    				</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TF-IDF</title>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pacifico" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css">
+
+		<link rel="stylesheet" href="{{ url_for('static', filename='js/modernizr-2.6.2.min.js') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-glyphicons.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+		<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script>
+	</head>
+	<body>
+		<div class="tfidf-main">
+			<div class="col-sm-12">
+				<h1 id="name">TF-IDF</h1><br /><br />
+				<p class="keyword-p">
+					These are the words that are important to the keyword 
+					<span class="keyword-span">{{ searchword }}</span> 
+					in the clincal trials database.
+				</p>
+				<table class="tfidf-table">
+					<thead class="tfidf-thead">
+						<tr>
+							<td>Word</td>
+							<td>TF</td>
+							<td>IDF</td>
+							<td>TF-IDF</td>
+							<td># Studies</td>
+						</tr>
+					</thead>
+					<tbody class="tfidf-tbody">{{ table|safe }}</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
